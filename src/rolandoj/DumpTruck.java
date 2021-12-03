@@ -27,14 +27,14 @@ public class DumpTruck extends Truck {
      * This method raises the dump truck's load.
      */
     public void raiseLoad() {
-        System.out.println("Raising load...");
+        System.out.println(getName() + " raising load...");
     }
 
     /**
      * This method lowers the dump truck's load.
      */
     public void lowerLoad() {
-        System.out.println("Lowering load...");
+        System.out.println(getName() + " lowering load...");
     }
 
 }
